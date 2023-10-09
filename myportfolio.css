@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0%; 
+    padding: 0%;
+}
+
+body {
+    background-color: #adaaff15; /*Cor de fundo de toda a página*/
+    height: 100vh; /*Faz com que eu use 100% da minha tela*/
+    box-sizing: border-box; /*Controla todo conteúdo dentro da tela*/
+    border: #ADAAFF solid 5px ; /*Faz o nosso quadrado ao redor do conteúdo principal*/
+    width: 1100px; /*Largura da minha caixa que engloba o meu conteúdo */
+    height: 700px; /*Altura da caixa que engloba o meu conteúdo principal*/
+    margin-left: 400px; /*Distância do lado esquedo da caixa que engloba meu conteúdo principal */
+    margin-top: 120px; /*Distancia da parte de cima da tela para a caixa que engloba meu conteúdo principal */
+    border-radius: 40px; /*Arredondamento da caixa da caixa que engloba meu conteúdo principal*/
+    box-shadow: 5px 5px 5px #0f0f0f21; /*Sobra da minha caixa */
+}
+
+.todo__conteudo {
+    display: flex; /*Deixa os itens(conteúdo principal) com "flexibilidade" a pedender das propriedade abaixo */
+    align-items: center; /*Deixa os itens (filhos) centralizados*/
+    margin-left: 125px; /*Margem do conteúdo para a esquerda*/
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif; /*Fonte do meu título*/
+    font-weight: 400; /*Grossura da fonte do meu título*/
+    font-size: 40px; /*Tamanho da fonte do meu título*/
+    color: #ADAAFF; /*Cor da fonte dop meu título*/
+    width: 520px; /*Larguera da caixa do meu título*/
+    line-height: 55px; /*Largura da linha entre uma frase e outra do título*/
+}
+
+.strong__titulo {
+    font-weight: 500; /*Grossura da fonte do meu título destaque*/
+    color: black; /*Cor do meu título destaque*/
+}
+
+.paragrafo {
+    font-family: 'Quicksand', sans-serif; /*Fonte do parágrafo*/
+    font-weight: 500; /*Grossura da fonte*/
+    width: 510px; /*Largura da caixa*/
+    text-align: justify; /*Alinha o final do texto*/
+    line-height: 28px; /*Largura entre uma linha e outra do parágrafo*/
+    padding-top: 15px; /*Largura entre o parágrafo e o título*/
+    padding-bottom: 40px; /*Largura entre o parágrafo e os botões*/  
+}
+
+.botoes {
+    font-family: 'Quicksand', sans-serif; /*Fonte*/
+    font-size: 19px; /*Tamanho da fonte*/
+    font-weight: 600; /*Grossura da fonte dos botões*/
+    color: #ffffff; /*Cor da fonte dos botões*/
+    display: flex; /*Deixa os botões "flexiveis" a depender das propriedades a seguir*/
+    flex-direction: row; /*Deixa os botões arrumados em linha, um ao lado do outro*/
+    gap: 20px; /*Espaço entre um botão e o outro, finciona por causa do display: flex;*/
+    margin-bottom: 10px; /*margem inferior dos botões*/
+}
+
+.botoes > a {
+    background-color: #ADAAFF; /*Cor de fundo*/ 
+    border:  #ADAAFF solid 2px; /*Configurações da borda*/
+    color: #ffffff;
+    border-radius: 30px 0px; /*Arredondamento das bordas*/
+    height: 32px; /*Altura dos botões*/
+    width: 250px; /*Largura dos botões*/
+    text-align: center; /*Alinha o nome dos botões no centro*/
+    padding-top: 19px; /*Altura do nome dos botões até a borda superior deles*/
+    padding-bottom: 12px; /*Altura do nome dos botões ate a borda inferior deles*/
+    box-shadow: 5px 5px 5px #0f0f0f1a; /*Sombra dos botões*/
+    text-decoration: none; /*Tira a decoração do texto do link que está no botão*/
+}
+
+.botao__linkedin:hover {
+    color: #ADAAFF; /*Cor que o nome do botão fica quando passo com o mouse*/
+    background-color: #adaaff15; /*Cor de fundo fdo botão quando passo o mouse*/
+} 
+
+.botao__github:hover {
+    color: #ADAAFF;  /*Cor que o nome do botão fica quando passo com o mouse*/
+    background-color: #adaaff15;  /*Cor de fundo fdo botão quando passo o mouse*/
+}
+
+.imagem {
+    margin-top: 10px; /*Altura supeior*/
+    margin-left: -32px; /*Largura lateral direita*/
+}
+
+
+
